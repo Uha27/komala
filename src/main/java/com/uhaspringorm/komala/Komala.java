@@ -24,5 +24,8 @@ public class Komala {
         // Print a transaction receipt
         Transaction transaction = new Transaction("2024-11-12", "Deposit", 500);
         transaction.printReceipt();
+        // Example code change for demonstration
+        System.out.println("New feature added in feature-branch.");
+
     }
 }
